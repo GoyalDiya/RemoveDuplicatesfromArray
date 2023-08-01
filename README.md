@@ -20,7 +20,7 @@ int removeduplicates(int arr[],int n){
     
 }
 int main() {
-    int arr[]={1,3,3,5,6,6};
+    int arr[]={1,3,3,5,6,7};
     int n=sizeof(arr) / sizeof(arr[0]);
     n=removeduplicates(arr,n);
     
